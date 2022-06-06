@@ -6,8 +6,15 @@
 /*------ temporary styles for structural html -------*/
 
 *{
-    padding: 0.5 rem;
+    padding: 0.5rem;
     border: 2px solid rgb(225,225,225)
 }
 body { border: none;}
 html { border: none;}
+
+/* image styles */
+.bg-image{
+    background-image: url('/Images/the-sleep-co-1.jpg');
+    background-size: cover;
+    min-height: 10rem;
+}
